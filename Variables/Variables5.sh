@@ -1,18 +1,19 @@
 #!/bin/bash
 
-# This script insert date before the extention name.
-# The user must enter both the filename and the extention to append.
+# The user must enter the name of the file then the date will be inserted before the extentionname. 
 
 
-file=$1
-ext=$2
+getfile=$1
+
+filename=$(basename $1 | cut -d '.' -f1)
+file_ext=$(basename $1 | cut -d '.' -f2)
+
 
 d=$(date --rfc-3339 date)
 
-editfile=$(basename -s $ext $file)
+ffl=$filename"_"$d"."$file_ext
 
+mv $getfile  $ffl
 
-$(mv $file $editfile'_'$d$ext)
-
-echo "$file has been renamed."
+echo "$getfile has been renamed to $ffl"
 
