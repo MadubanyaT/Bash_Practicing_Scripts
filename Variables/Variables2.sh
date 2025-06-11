@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This is a simple script that will accept user inputs and echo them
-# Shows the user who is running
+# Shows the user who is executing the script and the host machine
 
 echo Number of arguments have been passed: $#
 echo
