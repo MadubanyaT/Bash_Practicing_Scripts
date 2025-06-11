@@ -1,15 +1,11 @@
 #!/bin/bash
 
-
 # VARIABLE NOTES
 # ======+++======
-# When referring to a variable we put $ sign before the variable name. e.g $name
-# When initialising a variable we leave out $
+# When referring to a variable, we puta  $ sign before the variable name. e.g $name
+# When initialising a variable, we leave out $
 # $1, $2, $3, etc. Can be used to read user input
-# If the variable value is long (space separated), use qoutes
-# 
-#
-#
+# If the variable value is long (space-separated), use quotes
 
 name=Ben
 
@@ -21,4 +17,3 @@ var=$(ls ../../)
 echo
 
 echo "Listing directories:" $var 
-
