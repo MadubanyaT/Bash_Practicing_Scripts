@@ -1,7 +1,15 @@
 # Bash Scripting 
 
- In this repository I will be practicing bash scripting, and there will be sharing some useful tips. Feel free to add your input.  
+This repository is where I practice Bash scripting and build my command-line skills using the Vim editor. Check it out if you want to ***grep*** something from it!
 
-I'll be using vim editor to create my scripts, killing two birds with one stone :)
+## Objective
+- Strengthen my command-line skills.
+- Automate routine system tasks using Bash.
+- Understand and implement scripting logic (conditionals, loops, functions).
+- Practice debugging and optimising scripts
 
- When I have completed my "practice journey" I'll share valuable resources on this README file for anyone who wanna learn bash, so stay tuned!
+## Coming soon
+Once I have completed everything, I will add:
+- Helpful Bash resources
+- My top scripting tips
+- Projects anyone can try to practice
